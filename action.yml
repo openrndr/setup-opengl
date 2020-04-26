@@ -1,0 +1,5 @@
+name: 'Setup OpenGL'
+description: 'Sets up OpenSWR backed OpenGL rasterizer'
+runs:
+  using: 'node12'
+  main: 'index.js'
