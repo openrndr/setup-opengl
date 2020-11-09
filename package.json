@@ -19,6 +19,6 @@
   "homepage": "https://github.com/edwinRNDR/setup-opengl#readme",
   "dependencies": {
     "@actions/core": "^1.2.6",
-    "@actions/exec": "^1.0.3"
+    "@actions/exec": "^1.0.4"
   }
 }
