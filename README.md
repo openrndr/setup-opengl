@@ -11,7 +11,7 @@ This only works on `ubuntu-bionic` runtimes
  
  ## Usage
  
- The `setup-opengl` is straight forward to use, all you have to do is make sure you run on `ubuntu-bionic` (currently latest) and add `uses: openrndr/setup-opengl@v1` to your workflow.
+ The `setup-opengl` is straight forward to use, all you have to do is make sure you run on `ubuntu-bionic` (currently latest) and add `uses: openrndr/setup-opengl@v1.1` to your workflow.
  After you can run programs that use OpenGL through GLX. 
  
  ### Basic Example
@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: openrndr/setup-opengl@v1
+      - uses: openrndr/setup-opengl@v1.1
       - run: xvfb-run glxinfo
 ```
 
