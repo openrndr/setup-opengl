@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: openrndr/setup-opengl@v1
+      - uses: openrndr/setup-opengl@v1.1
       - run: xvfb-run glxinfo
 ```
 
