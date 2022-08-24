@@ -294,4 +294,4 @@ The scripts and documentation in this project are released under the [MIT licens
 
 ## Current Status
 
-This action is in active development.
+This action is no longer in active development. https://github.com/openrndr/setup-opengl/issues/5#issuecomment-1225373342
